@@ -275,16 +275,17 @@ background-size: contain;
 background-repeat: no-repeat;
 }
 .prof-pic-1{
-    background: url("./images/profile-2.jpg");
+    background: url("profile-2.jpg");
     height: 30px;
   width: 30px;
 border-radius: 50%;
 
 background-size: contain;
 background-repeat: no-repeat;
+  
 }
 .prof-pic-2{
-    background: url("profile-2.jpg");
+    background: url("profile-3.jpg");
     height: 30px;
   width: 30px;
 border-radius: 50%;
