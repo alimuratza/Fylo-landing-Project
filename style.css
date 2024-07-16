@@ -75,7 +75,7 @@ body{
     background-color: hsl(217, 28%, 15%); 
     flex-direction: column;
    width: 100%;
-   background-image: url("./images/bg-curvy-desktop.svg");
+   background-image: url("bg-curvy-desktop.svg");
    background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
