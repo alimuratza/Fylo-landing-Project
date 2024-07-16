@@ -472,7 +472,7 @@ footer{
 }
 
 .fb{
-    background-image: url("./images/facebook.svg");
+    background-image: url("facebook.svg");
     height: 30px;
     width: 30px;
   border-radius: 50%;
@@ -484,7 +484,7 @@ footer{
 }
 
 .tweet{
-    background-image: url("./images/twitter.svg");
+    background-image: url("twitter.svg");
     background-color: white;
     height: 30px;
     width: 30px;
@@ -496,7 +496,7 @@ footer{
 }
 
 .insta{
-    background-image: url("./images/square-instagram.svg");
+    background-image: url("square-instagram.svg");
     background-color: white;
     background-position: center;
     height: 30px;
