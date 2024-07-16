@@ -516,3 +516,229 @@ footer{
     top: 11.5rem;
     left: 20rem;
 }
+@media (max-width: 1200px) {
+    .hero-section {
+        background-size: auto; /* Adjust for medium screens */
+    }
+    
+    .pic2 img {
+        width: 100%; /* Make image responsive */
+    }
+
+    .heading1 h1 {
+        font-size: 1.5rem; /* Adjust heading size for medium screens */
+    }
+
+    .hh1 {
+        padding-left: 1rem; /* Adjust padding */
+    }
+
+    .para1 {
+        font-size: 0.9rem; /* Adjust paragraph size */
+        padding-left: 1rem; /* Adjust padding */
+    }
+
+    .main-section-1, .main-section-2, .main-section-3 {
+        padding: 2rem; /* Adjust padding for sections */
+    }
+
+    .info-1, .info-2, .info-3, .info-4 {
+        padding-left: 2rem; /* Adjust padding */
+        padding-right: 2rem; /* Adjust padding */
+    }
+
+    .info-1, .info-2 {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .info-1 img, .info-2 img {
+        width: 80px; /* Adjust icon size */
+    }
+
+    .info-3, .info-4 {
+        padding-left: 2rem; /* Adjust padding */
+        padding-right: 2rem; /* Adjust padding */
+    }
+
+    .info-3 img, .info-4 img {
+        width: 80px; /* Adjust icon size */
+    }
+
+    .Profiles {
+        flex-direction: column; /* Stack profiles vertically */
+        padding: 1rem; /* Adjust padding */
+    }
+
+    .profil-1 {
+        width: 100%; /* Full width */
+        height: auto; /* Adjust height */
+        margin-bottom: 1rem; /* Space between profiles */
+    }
+
+    .left-img img {
+        width: 100%; /* Make image responsive */
+    }
+
+    .right-heading {
+        width: 100%; /* Full width */
+    }
+
+    .search-engine {
+        width: 100%; /* Full width */
+        height: auto; /* Adjust height */
+        padding: 2rem; /* Adjust padding */
+    }
+
+    .white-button, .blue-button {
+        width: 100%; /* Full width buttons */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .footer {
+        flex-direction: column; /* Stack footer items vertically */
+        padding: 2rem; /* Adjust padding */
+        height: auto; /* Adjust height */
+    }
+
+    .icon-1, .phone, .info-desk, .help-desk, .icons {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .phone-1 {
+        width: auto; /* Adjust width */
+    }
+
+    .text4, .email-icon {
+        font-size: 0.9rem; /* Adjust font size */
+        text-align: center; /* Center text */
+    }
+
+    .icons {
+        gap: 0.5rem; /* Adjust gap */
+        margin-top: 1rem; /* Space above icons */
+    }
+
+    .fb, .tweet, .insta {
+        height: 25px; /* Adjust size */
+        width: 25px; /* Adjust size */
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .info {
+        position: static; /* Reset position */
+        justify-content: center; /* Center items */
+        gap: 1rem; /* Adjust gap */
+    }
+
+    .hero-section {
+        background-size: auto; /* Adjust background size */
+        text-align: center; /* Center text */
+    }
+
+    .pic2 img {
+        width: 80%; /* Adjust image size */
+    }
+
+    .heading1 h1, .para1 p {
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    .main-section-1, .main-section-2, .main-section-3 {
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    .info-1, .info-2, .info-3, .info-4 {
+        padding-left: 1rem; /* Adjust padding */
+        padding-right: 1rem; /* Adjust padding */
+    }
+
+    .Profiles {
+        padding: 0.5rem; /* Adjust padding */
+    }
+
+    .profil-1 {
+        width: 100%; /* Full width */
+        height: auto; /* Adjust height */
+        margin-bottom: 0.5rem; /* Space between profiles */
+    }
+
+    .left-img img {
+        width: 90%; /* Adjust image size */
+    }
+
+    .search-engine {
+        width: 100%; /* Full width */
+        padding: 1rem; /* Adjust padding */
+    }
+
+    .white-button, .blue-button {
+        width: 100%; /* Full width buttons */
+        padding: 8px; /* Adjust padding */
+    }
+
+    .footer {
+        padding: 1rem; /* Adjust padding */
+        height: auto; /* Adjust height */
+    }
+
+    .icon-1, .phone, .info-desk, .help-desk, .icons {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        background-size: cover; /* Cover background image */
+    }
+
+    .pic2 img {
+        width: 100%; /* Full width */
+    }
+
+    .heading1 h1, .para1 p {
+        font-size: 0.9rem; /* Adjust font size */
+    }
+
+    .main-section-1, .main-section-2, .main-section-3 {
+        padding: 1rem; /* Adjust padding */
+    }
+
+    .Profiles {
+        padding: 0.5rem; /* Adjust padding */
+    }
+
+    .profil-1 {
+        font-size: 0.8rem; /* Adjust font size */
+        margin-bottom: 0.5rem; /* Space between profiles */
+    }
+
+    .left-img img {
+        width: 100%; /* Full width */
+    }
+
+    .search-engine {
+        padding: 0.5rem; /* Adjust padding */
+    }
+
+    .white-button, .blue-button {
+        padding: 6px; /* Adjust padding */
+    }
+
+    .footer {
+        padding: 0.5rem; /* Adjust padding */
+    }
+
+    .icons {
+        margin-top: 1rem; /* Space above icons */
+    }
+}
+
