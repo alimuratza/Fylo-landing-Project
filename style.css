@@ -1,0 +1,517 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root{
+    
+
+    --Dark-Blue : hsl(217, 28%, 15%);     /*intro and email sign up background*/
+     --Dark-Blue : hsl(218, 28%, 13%);    /*main background*/
+     --Dark-Blue : hsl(216, 53%, 9%);    /*footer background*/
+     --Dark-Blue : hsl(219, 30%, 18%); /*testimonials background */
+      --Cyan : hsl(176, 68%, 64%);
+      --Blue : hsl(198, 60%, 50%);
+      --Light-Red : hsl(0, 100%, 63%);  /*error*/
+
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway",sans-serif;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    
+    width: 100%;
+    background-color:  hsl(216, 53%, 9%);
+   
+}
+
+
+.header{
+    background-color: hsl(217, 28%, 15%); 
+    padding: 2rem;
+    
+}
+
+.logofylo{
+    display: flex;
+    width: .25rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left:1rem;
+}
+
+.info{
+    font-family: "Raleway",sans-serif;
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+     position: relative;
+     right: 1rem;
+     bottom: 2rem;   
+    font-size:small;
+    
+    gap: 3rem;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 28%, 15%); 
+    flex-direction: column;
+   width: 100%;
+   background-image: url("./images/bg-curvy-desktop.svg");
+   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  
+  
+}
+
+.pic2 img{
+    width: 500px;
+}
+
+.heading1 h1{
+     padding-top: .5rem;
+    color: white;
+}
+.hh1{
+    padding-left: 3rem;
+}
+.para1{
+    color: white;
+    font-size: small;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    
+}
+.butt{
+    padding-top: 1rem;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: var(--Cyan);
+    width: 100%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    font-family: "Raleway",sans-serif;
+}
+
+.main-section-1{
+    background-color: hsl(218, 28%, 13%);  
+   
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+    
+    padding: 4rem;
+    
+}
+
+
+.info-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    color: white;
+   padding-left: 4rem;
+    
+
+}
+
+.logo-1{
+    width: 100px;
+}
+.info-1 p{
+    font-size: small;
+}
+
+
+.info-2{
+      
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+        
+        color: white;
+        padding-right: 4rem;
+        
+       
+}
+.logo-2{
+    width: 80px;
+}
+.info-2 p{
+    font-size: small;
+}
+.info-3{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    color: white;
+    padding-left: 4rem;
+    
+    
+
+}
+.logo-3{
+width: 100px;
+}
+.info-3 p{
+font-size: small;
+}
+.info-4{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    color: white;
+    padding-right: 4rem;
+    
+    
+}
+.logo-4{
+width: 100px;
+}
+.info-4 p{
+font-size: small;
+}
+
+.main-section-2{
+    background-color: hsl(218, 28%, 13%);  
+   
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+     
+     padding: 4rem;
+}
+.main-section-3{
+    background-color:  hsl(218, 28%, 13%); 
+    width: 100%;
+    padding: 4rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 3rem;
+    width: 600px;
+}
+.left-img img{
+    width: 600px;
+}
+
+.para-2{
+    font-size: medium;
+}
+.para-3{
+    color: var(--Cyan);
+    text-decoration: underline;
+}
+
+.Profiles{
+    background-color:  hsl(218, 28%, 13%); 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+
+gap: 2rem;
+
+padding: 1rem;
+}
+.profil-1{
+    background-color:  hsl(219, 30%, 18%);
+    color: white;
+    font-size: small;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+
+    
+}
+.prof-pic{
+    
+    background: url("./images/profile-1.jpg");
+    height: 30px;
+  width: 30px;
+border-radius: 50%;
+
+background-size: contain;
+background-repeat: no-repeat;
+}
+.prof-pic-1{
+    background: url("./images/profile-2.jpg");
+    height: 30px;
+  width: 30px;
+border-radius: 50%;
+
+background-size: contain;
+background-repeat: no-repeat;
+}
+.prof-pic-2{
+    background: url("./images/profile-3.jpg");
+    height: 30px;
+  width: 30px;
+border-radius: 50%;
+
+background-size: contain;
+background-repeat: no-repeat;
+}
+.profile-pic{
+    display: flex;
+    flex-direction: row;
+}
+.para-4{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.para-4{
+    font-size: smaller;
+}
+
+.search{
+    background-color:  hsl(218, 28%, 13%);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+      padding-top:8rem ;
+      
+}
+
+.search-engine{
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 250px;
+    flex-direction: column;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 4rem;
+
+}
+.white-button{
+    color: hsl(219, 30%, 18%);
+    margin-top: 20px;
+    padding: 25px 50px;
+    border: none;
+
+    outline: none;
+    background-color: white;
+    
+    border-radius: 30px;
+    padding-bottom: 20px;
+    font-family: "Raleway",sans-serif;
+    width: 500px;
+}
+.blue-button{
+    margin-top: 15px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: var(--Cyan);
+    
+    border-radius: 30px;
+    padding-bottom: 10px;
+    font-family: "Raleway",sans-serif;
+    width: 300px;
+}
+.butt-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+footer{
+    background-color:  hsl(216, 53%, 9%);
+    
+    display: flex;
+    flex-direction: row;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-bottom: 2rem;
+    padding-top: 9rem;
+    width: 100%;
+    height: 700px;
+   
+}
+
+.back{
+    background-color:  hsl(216, 53%, 9%);
+    width: 100%;
+}
+
+.icon-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.logofylo-1 {
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 300px;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+    position: relative;
+    top: 12rem;
+    left: 2rem;
+}
+
+
+.email-icon{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-left: .75rem;
+}
+
+.logo{
+    width: 200px;
+}
+.text4{
+    color: white;
+    font-size: smaller;
+    width: 300px;
+}
+
+.small-logo{
+    height: 20px;
+    gap: 1rem;
+}
+
+.ph-img{
+    height:   20px;
+}
+.phone-1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.info-desk{
+    color: white;
+    font-size: small;
+    
+    position: relative;
+    top: 11rem;
+    left: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.help-desk{
+    color: white;
+    font-size: small;
+    
+    position: relative;
+    top: 10rem;
+    left: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.icons{
+    display: flex;
+    
+}
+
+.fb{
+    background-image: url("./images/facebook.svg");
+    height: 30px;
+    width: 30px;
+  border-radius: 50%;
+  border:1px solid white;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.tweet{
+    background-image: url("./images/twitter.svg");
+    background-color: white;
+    height: 30px;
+    width: 30px;
+  border-radius: 50%;
+  border:1px solid white;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.insta{
+    background-image: url("./images/square-instagram.svg");
+    background-color: white;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+  border-radius: 50%;
+  border:1px solid white;
+  
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+ 
+}
+
+.icons{
+    gap: 1rem;
+    position: relative;
+    top: 11.5rem;
+    left: 20rem;
+}
